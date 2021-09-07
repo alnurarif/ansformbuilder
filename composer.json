@@ -13,5 +13,6 @@
             "name": "Mohammad Al-Nur Sarwer Arif",
             "email": "alnurarif@yahoo.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
