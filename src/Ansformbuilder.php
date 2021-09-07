@@ -1,6 +1,6 @@
 <?php
 
-namespace Ans\Ansformbuilder;
+namespace Alnurarif\Ansformbuilder;
 
 class Ansformbuilder{
 	private $name = "";

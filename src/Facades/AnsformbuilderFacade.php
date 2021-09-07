@@ -1,6 +1,6 @@
 <?php
 
-namespace Ans\Ansformbuilder\Facades;
+namespace Alnurarif\Ansformbuilder\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

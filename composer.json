@@ -1,11 +1,11 @@
 {
-    "name": "ans/ansformbuilder",
+    "name": "alnurarif/ansformbuilder",
     "description": "This package will help to create inputs of form",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ans\\Ansformbuilder\\": "src/"
+            "Alnurarif\\Ansformbuilder\\": "src/"
         }
     },
     "authors": [
