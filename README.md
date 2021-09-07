@@ -13,13 +13,13 @@ Composer require alnurarif/AnsFormBuilder
 ```
 Manually add the package the following providers should be added in your config/app.php:
 ```
-Ans\Ansformbuilder\AnsFormBuilderServiceProvider::class
+Alnurarif\Ansformbuilder\AnsFormBuilderServiceProvider::class
 ```
 ## Usage
 
 ```
 use Illuminate\Support\Facades\Route;
-use Ans\Ansformbuilder\Ansformbuilder;
+use Alnurarif\Ansformbuilder\Ansformbuilder;
 
 Route::get('/test', function () {
 
@@ -80,6 +80,7 @@ Route::get('/test', function () {
     ->setRequired(false)
     ->getData();
 
+    //pass the data array to views where it could be used to generate input
     return view('greeting', [
         'input1' => $nameData,
         'input2' => $passwordData,
