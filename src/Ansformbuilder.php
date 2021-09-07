@@ -111,7 +111,6 @@ class Ansformbuilder{
 			"classes" => $this->tagClasses,
 			"name" => $this->name,
 			"values" => $this->value,
-			"active" => $this->activeValue,
 			"required" => $this->tagRequired
 		];
 	}
