@@ -1,0 +1,17 @@
+{
+    "name": "ans/ansformbuilder",
+    "description": "This package will help to create inputs of form",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ans\\Ansformbuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammad Al-Nur Sarwer Arif",
+            "email": "alnurarif@yahoo.com"
+        }
+    ]
+}
